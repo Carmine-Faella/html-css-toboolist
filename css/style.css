@@ -1,41 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(56, 170, 255);
 }
 
-header{
+header {
     background-color: white;
 }
 
-#Logo{
+#Logo {
     font-family: 'Kanit', sans-serif;
     font-size: 100px;
     vertical-align: middle;
 }
 
-.Img_Logo{
+.Img_Logo {
     height: 50px;
     vertical-align: middle;
     height: 100px;
     margin: 20px;
     margin-right: 0px;
-   }
+}
 
-.container{
+.container {
     background-color: white;
-    height: 850px;
+    height: 1000px;
     margin-top: 100px;
     margin-left: 25%;
     margin-right: 25%;
     border-radius: 20px;
 }
 
-.button{
+.button {
     padding: 15px;
     margin-left: 100px;
     margin-top: 25px;
@@ -44,38 +44,38 @@ header{
     display: inline-block;
 }
 
-.blue{
+.blue {
     background-color: rgb(54, 170, 245);
     border: none;
 }
 
-.white{
+.white {
     background-color: white;
     margin-left: 10px;
     border-color: lightgray;
 }
 
-hr{
+hr {
     margin-top: 10px;
-    color: rgba(245,248,248,1);
+    color: rgba(245, 248, 248, 1);
 }
 
-#Task{
+#Task {
     margin: 50px;
-    color: rgb(38,40,64);
+    color: rgb(38, 40, 64);
     font-family: 'Kanit', sans-serif;
 }
 
-.item{
-    margin-top: 25px;
+.item {
+    margin-top: 30px;
 }
 
-.list{
-    margin-top: 15px;
+.list {
+    margin-top: 30px;
     font-size: 20px;
 }
 
-.button_task{
+.button_task {
     padding: 10px;
     color: white;
     font-size: 14px;
@@ -83,22 +83,57 @@ hr{
     border: none;
 }
 
-.violet{
-    background-color: rgb(152,82,204);
+.violet {
+    background-color: rgb(152, 82, 204);
 }
 
-.green{
-    background-color: rgb(36,162,140);
+.green {
+    background-color: rgb(36, 162, 140);
 }
 
-.orange{
-    background-color: rgb(250,155,0);
+.orange {
+    background-color: rgb(250, 155, 0);
 }
 
-.rose{
-    background-color: rgb(236,74,157);
-}	
+.rose {
+    background-color: rgb(236, 74, 157);
+}
 
-.ligthgreen{
-    background-color: rgb(163,209,20);
+.ligthgreen {
+    background-color: rgb(163, 209, 20);
+}
+
+h1::before {
+    content: '\2713';
+    margin-right: 10px;
+}
+
+span{
+    margin-right: 15px;
+}
+
+.check {
+    border: 1px solid lightgreen;
+    border-radius: 50%;
+}
+
+.check:before {
+    content: '\2713';
+    border-color: lightgreen;
+    color: lightgreen;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.cross{
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.cross::before{
+    content: '\2717';
+    border-color: lightgreen;
+    color: red;
+    font-size: 20px;
+    padding: 10px;
 }
